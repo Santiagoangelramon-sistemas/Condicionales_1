@@ -1,13 +1,11 @@
-# input
-cant_minutos=input("Digite la cant ,minuto:")
-cant_minutos=int(cant.minutos)
+cant_minutos = int(input("Dijite la cantidad de minutos que duro la llamada")) # Input
 
-# prossesing
-if cant_minutos<=3:
-    valor_llamada=300
+if cant_minutos <=3:
+    
+    print("el valor de la llama son 300 pesos")
 
 else:
-    valor_llamada=300+50*(cant_minutos -3)
+    valor_llamada = 300+50*(cant_minutos-3)
 
-#output
-print("El valor de la llamada es: "+str(valor_llamada))
+
+    print(f"El valor de llamda es: " + str(valor_llamada))
